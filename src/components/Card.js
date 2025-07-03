@@ -10,6 +10,7 @@ function Card({ type, title, description, image, codeLink, demoLink }) {
         <img
           src={image}
           alt={`${title} Screenshot`}
+          loading="lazy"
           className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-110"
         />
         <div className="absolute top-0 p-2 left-0 w-full -translate-y-8 opacity-0 transition-all duration-300 group-hover:translate-y-0 group-hover:opacity-100 flex items-start">
@@ -27,7 +28,6 @@ function Card({ type, title, description, image, codeLink, demoLink }) {
       </div>
 
       <div className="flex items-center justify-between p-4">
-        {/* ✅ تم توحيد تنسيق زر الكود */}
         <a
           href={codeLink}
           target="_blank"
