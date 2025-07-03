@@ -72,6 +72,7 @@ function Projects() {
           description="Project description"
           image="./imgs/Projects-img/dashboard.webp"
           demoLink="https://flourishing-syrniki-221e65.netlify.app/"
+          codeLink="https://flourishing-syrniki-221e65.netlify.app/"
         />
         <Card
           type="Landing Pages"
@@ -80,6 +81,7 @@ function Projects() {
           description="Project description"
           image="./imgs/Projects-img/landpage.webp"
           demoLink="https://glittery-florentine-72fa78.netlify.app/"
+          codeLink="https://flourishing-syrniki-221e65.netlify.app/"
         />
         <Card
           type="E-commerce"
@@ -95,6 +97,7 @@ function Projects() {
           description="Project description"
           image="./imgs/Projects-img/WeatherApp.webp"
           demoLink="https://ahmeedsalama.github.io/WeatherApp"
+          codeLink="https://flourishing-syrniki-221e65.netlify.app/"
         />
           <Card
           type="Web Apps"
@@ -103,6 +106,7 @@ function Projects() {
           description="Project description"
           image="./imgs/Projects-img/NotesApp.webp"
           demoLink="https://moonlit-sprinkles-7a503f.netlify.app/"
+          codeLink="https://flourishing-syrniki-221e65.netlify.app/"
         />
           <Card
           type="Web Apps"
@@ -111,6 +115,7 @@ function Projects() {
           description="Project description"
           image="./imgs/Projects-img/Portfolio.webp"
           demoLink="https://ahmeedsalama.github.io/JohnDoePort/"
+          codeLink="https://flourishing-syrniki-221e65.netlify.app/"
         />
          <Card
           type="Web Apps"
@@ -119,6 +124,7 @@ function Projects() {
           description="Project description"
           image="./imgs/Projects-img/PRODCTMANGEMNTSYSTEM.webp"
           demoLink="https://steady-sunburst-ca492f.netlify.app/"
+          codeLink="https://flourishing-syrniki-221e65.netlify.app/"
         />
           <Card
           type="Web Apps"
@@ -127,6 +133,7 @@ function Projects() {
           description="Project description"
           image="./imgs/Projects-img/ProductDashboard.webp"
           demoLink="https://sunny-fenglisu-f525c6.netlify.app/"
+          codeLink="https://flourishing-syrniki-221e65.netlify.app/"
         />
       </div>
     </div>
