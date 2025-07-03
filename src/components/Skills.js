@@ -10,7 +10,7 @@ function Skills() {
         <div className="flex flex-col items-center w-full lg:w-auto p-4 bg-card-bg border border-[var(--color-border)] rounded-lg hover:shadow-lg transition-shadow opacity-100">
           <div className="text-[var(--color-accent)] mb-2 w-10 h-10 flex items-center justify-center">
             <img
-              src="/imgs/icons/html.png"
+              src="/imgs/icons/html.webp"
               loading="lazy"
               alt="HTML Icon"
               className="object-contain max-w-full max-h-full"
@@ -26,7 +26,7 @@ function Skills() {
         <div className="flex flex-col items-center w-full lg:w-auto p-4 bg-card-bg border border-[var(--color-border)] rounded-lg hover:shadow-lg transition-shadow opacity-100">
           <div className="text-[var(--color-accent)] mb-2 w-10 h-10 flex items-center justify-center">
             <img
-              src="/imgs/icons/css-3.png"
+              src="/imgs/icons/css-3.webp"
               loading="lazy"
               alt="CSS Icon"
               className="object-contain max-w-full max-h-full"
@@ -42,7 +42,7 @@ function Skills() {
         <div className="flex flex-col items-center w-full lg:w-auto p-4 bg-card-bg border border-[var(--color-border)] rounded-lg hover:shadow-lg transition-shadow opacity-100">
           <div className="text-[var(--color-accent)] mb-2 w-10 h-10 flex items-center justify-center">
             <img
-              src="/imgs/icons/javascript.png"
+              src="/imgs/icons/javascript.webp"
               loading="lazy"
               alt="JavaScript Icon"
               className="object-contain max-w-full max-h-full"
@@ -58,7 +58,7 @@ function Skills() {
         <div className="flex flex-col items-center w-full lg:w-auto p-4 bg-card-bg border border-[var(--color-border)] rounded-lg hover:shadow-lg transition-shadow opacity-100">
           <div className="text-[var(--color-accent)] mb-2 w-10 h-10 flex items-center justify-center">
             <img
-              src="/imgs/icons/react.png"
+              src="/imgs/icons/react.webp"
               loading="lazy"
               alt="React Icon"
               className="object-contain max-w-full max-h-full"
@@ -74,7 +74,7 @@ function Skills() {
         <div className="flex flex-col items-center w-full lg:w-auto p-4 bg-card-bg border border-[var(--color-border)] rounded-lg hover:shadow-lg transition-shadow opacity-100">
           <div className="text-[var(--color-accent)] mb-2 w-10 h-10 flex items-center justify-center">
             <img
-              src="/imgs/icons/Tailwind).png"
+              src="/imgs/icons/Tailwind).webp"
               loading="lazy"
               alt="Tailwind CSS Icon"
               className="object-contain max-w-full max-h-full"
@@ -90,7 +90,7 @@ function Skills() {
         <div className="flex flex-col items-center w-full lg:w-auto p-4 bg-card-bg border border-[var(--color-border)] rounded-lg hover:shadow-lg transition-shadow opacity-100">
           <div className="text-[var(--color-accent)] mb-2 w-10 h-10 flex items-center justify-center">
             <img
-              src="/imgs/icons/bootstrap.png"
+              src="/imgs/icons/bootstrap.webp"
               loading="lazy"
               alt="Bootstrap Icon"
               className="object-contain max-w-full max-h-full"
@@ -106,7 +106,7 @@ function Skills() {
         <div className="flex flex-col items-center w-full lg:w-auto p-4 bg-card-bg border border-[var(--color-border)] rounded-lg hover:shadow-lg transition-shadow opacity-100">
           <div className="text-[var(--color-accent)] mb-2 w-10 h-10 flex items-center justify-center">
             <img
-              src="/imgs/icons/Redux.png"
+              src="/imgs/icons/Redux.webp"
               loading="lazy"
               alt="Redux Icon"
               className="object-contain max-w-full max-h-full"
@@ -122,7 +122,7 @@ function Skills() {
         <div className="flex flex-col items-center w-full lg:w-auto p-4 bg-card-bg border border-[var(--color-border)] rounded-lg hover:shadow-lg transition-shadow opacity-100">
           <div className="text-[var(--color-accent)] mb-2 w-10 h-10 flex items-center justify-center">
             <img
-              src="/imgs/icons/Git.png"
+              src="/imgs/icons/Git.webp"
               loading="lazy"
               alt="Git Icon"
               className="object-contain max-w-full max-h-full"
@@ -138,7 +138,7 @@ function Skills() {
         <div className="flex flex-col items-center w-full lg:w-auto p-4 bg-card-bg border border-[var(--color-border)] rounded-lg hover:shadow-lg transition-shadow opacity-100">
           <div className="text-[var(--color-accent)] mb-2 w-10 h-10 flex items-center justify-center">
             <img
-              src="/imgs/icons/github.png"
+              src="/imgs/icons/github.webp"
               loading="lazy"
               alt="GitHub Icon"
               className="object-contain max-w-full max-h-full"
@@ -154,7 +154,7 @@ function Skills() {
         <div className="flex flex-col items-center w-full lg:w-auto p-4 bg-card-bg border border-[var(--color-border)] rounded-lg hover:shadow-lg transition-shadow opacity-100">
           <div className="text-[var(--color-accent)] mb-2 w-10 h-10 flex items-center justify-center">
             <img
-              src="/imgs/icons/api.png"
+              src="/imgs/icons/api.webp"
               loading="lazy"
               alt="API Icon"
               className="object-contain max-w-full max-h-full"
