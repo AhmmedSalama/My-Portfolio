@@ -89,23 +89,42 @@ function Profile() {
           </div>
 
           {/* أيقونات السوشيال ميديا */}
-          <ul className="flex justify-center gap-4 mt-6">
-            <li className="border text-[var(--color-text-secondary)] p-3 rounded-md hover:bg-[var(--color-card-hover)] hover:text-[var(--color-accent-hover)] transition">
-              <a href="https://www.facebook.com/AhmeedSallama2" className="block">
-                <Facebook />
-              </a>
-            </li>
-            <li className="border text-[var(--color-text-secondary)] p-3 rounded-md hover:bg-[var(--color-card-hover)] hover:text-[var(--color-accent-hover)] transition">
-              <a href="https://www.linkedin.com/in/ahmeedsalama/" className="block">
-                <Linkedin />
-              </a>
-            </li>
-            <li className="border text-[var(--color-text-secondary)] p-3 rounded-md hover:bg-[var(--color-card-hover)] hover:text-[var(--color-accent-hover)] transition">
-              <a href="#" className="block">
-                <Github />
-              </a>
-            </li>
-          </ul>
+<ul className="flex justify-center gap-4 mt-6">
+  <li className="border text-[var(--color-text-secondary)] p-3 rounded-md hover:bg-[var(--color-card-hover)] hover:text-[var(--color-accent-hover)] transition">
+    <a
+      href="https://www.facebook.com/AhmeedSallama2"
+      className="block"
+      target="_blank"
+      rel="noopener noreferrer"
+      title="Visit my Facebook profile"
+    >
+      <Facebook />
+    </a>
+  </li>
+  <li className="border text-[var(--color-text-secondary)] p-3 rounded-md hover:bg-[var(--color-card-hover)] hover:text-[var(--color-accent-hover)] transition">
+    <a
+      href="https://www.linkedin.com/in/ahmeedsalama/"
+      className="block"
+      target="_blank"
+      rel="noopener noreferrer"
+      title="Visit my LinkedIn profile"
+    >
+      <Linkedin />
+    </a>
+  </li>
+  <li className="border text-[var(--color-text-secondary)] p-3 rounded-md hover:bg-[var(--color-card-hover)] hover:text-[var(--color-accent-hover)] transition">
+    <a
+      href="#"
+      className="block"
+      target="_blank"
+      rel="noopener noreferrer"
+      title="Visit my GitHub profile"
+    >
+      <Github />
+    </a>
+  </li>
+</ul>
+
         </div>
       </div>
     </div>
