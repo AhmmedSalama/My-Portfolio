@@ -13,7 +13,7 @@ function NavBar() {
             src="imgs/logo.webp"
             className="h-10"
             alt="Ahmed logo"
-            width={40}
+            width={111}
             height={40}
             loading="lazy"
           />
