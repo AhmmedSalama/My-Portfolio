@@ -10,7 +10,7 @@ function NavBar() {
       <div className="w-full flex justify-between items-center lg:block">
         <a href="/" aria-label="Home">
           <img
-            src="imgs/logo.png"
+            src="imgs/logo.webp"
             className="h-10"
             alt="Ahmed logo"
             width={40}
