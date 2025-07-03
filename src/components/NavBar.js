@@ -1,33 +1,28 @@
 import { useState } from "react";
-import { Phone, Briefcase, Wrench, User, Moon, Menu, X, ArrowDown, ArrowUp } from "lucide-react";
+import { Phone, Briefcase, Wrench, User, Moon, Menu, X } from "lucide-react";
 import ThemeToggle from "./ThemeToggle";
 
 function NavBar() {
   const [menuOpen, setMenuOpen] = useState(false);
-  const [showDetails, setShowDetails] = useState(false); // ✅ مضافة هنا
 
   return (
     <nav className="flex border-b pb-3 border-[var(--color-border)] flex-col lg:flex-row justify-between items-start lg:items-center gap-4 lg:gap-0 w-full transition-all duration-300">
       <div className="w-full flex justify-between items-center lg:block">
         <a>
           <img
-            src="imgs/logo.webp"
+            src="imgs/logo.png"
             className="h-10"
             alt="Ahmed logo"
             loading="lazy"
           />
         </a>
+
         <button
-          onClick={() => setShowDetails(!showDetails)}
-          className="p-1"
-          aria-label={showDetails ? "Hide details" : "Show details"}
-          title={showDetails ? "Hide details" : "Show details"}
+          className="lg:hidden p-2 rounded-md hover:bg-card-hover transition-colors"
+          aria-label="Toggle menu"
+          onClick={() => setMenuOpen(!menuOpen)}
         >
-          {showDetails ? (
-            <ArrowUp size={20} className="text-white" />
-          ) : (
-            <ArrowDown size={20} className="text-white" />
-          )}
+          {menuOpen ? <X className="text-[var(--color-text)]" /> : <Menu className="text-[var(--color-text)]" />}
         </button>
       </div>
 
