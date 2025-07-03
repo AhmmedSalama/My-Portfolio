@@ -70,7 +70,7 @@ function Projects() {
           className="Card block"
           title="Dashboard Project"
           description="Project description"
-          image="./imgs/Projects-img/dashboard.png"
+          image="./imgs/Projects-img/dashboard.webp"
           demoLink="https://flourishing-syrniki-221e65.netlify.app/"
         />
         <Card
@@ -78,7 +78,7 @@ function Projects() {
           className="Card block"
           title="Landing Page"
           description="Project description"
-          image="./imgs/Projects-img/landpage.png"
+          image="./imgs/Projects-img/landpage.webp"
           demoLink="https://glittery-florentine-72fa78.netlify.app/"
         />
         <Card
@@ -93,7 +93,7 @@ function Projects() {
           className="Card block"
           title="Weather App"
           description="Project description"
-          image="./imgs/Projects-img/WeatherApp.png"
+          image="./imgs/Projects-img/WeatherApp.webp"
           demoLink="https://ahmeedsalama.github.io/WeatherApp"
         />
           <Card
@@ -101,7 +101,7 @@ function Projects() {
           className="Card block"
           title="Notes App"
           description="Project description"
-          image="./imgs/Projects-img/NotesApp.png"
+          image="./imgs/Projects-img/NotesApp.webp"
           demoLink="https://moonlit-sprinkles-7a503f.netlify.app/"
         />
           <Card
@@ -109,7 +109,7 @@ function Projects() {
           className="Card block"
           title="Personal Portfolio Website"
           description="Project description"
-          image="./imgs/Projects-img/Portfolio.png"
+          image="./imgs/Projects-img/Portfolio.webp"
           demoLink="https://ahmeedsalama.github.io/JohnDoePort/"
         />
          <Card
@@ -117,7 +117,7 @@ function Projects() {
           className="Card block"
           title="PRODCT MANGEMNT SYSTEM"
           description="Project description"
-          image="./imgs/Projects-img/PRODCTMANGEMNTSYSTEM.png"
+          image="./imgs/Projects-img/PRODCTMANGEMNTSYSTEM.webp"
           demoLink="https://steady-sunburst-ca492f.netlify.app/"
         />
           <Card
@@ -125,7 +125,7 @@ function Projects() {
           className="Card block"
           title="Product Dashboard(React & api)"
           description="Project description"
-          image="./imgs/Projects-img/ProductDashboard.png"
+          image="./imgs/Projects-img/ProductDashboard.webp"
           demoLink="https://sunny-fenglisu-f525c6.netlify.app/"
         />
       </div>
