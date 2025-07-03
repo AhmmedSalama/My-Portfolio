@@ -21,13 +21,15 @@ function ScrollToTopButton() {
   }, []);
 
   return (
-    <a
-      href="#"
-      id="ScrollToTopButton"
-      className="fixed right-3 bottom-2 items-center justify-center text-white bg-gradient-to-r from-[var(--color-accent)] to-[var(--color-accent-hover)] w-10 h-10 rounded-md border-[var(--color-border)] hover:scale-105 duration-200 hover:from-[var(--color-accent-hover)] hover:to-[var(--color-accent)]"
-    >
-      <CircleArrowUp size={24} />
-    </a>
+<a
+  href="#"
+  id="ScrollToTopButton"
+  title="Scroll to top"
+  aria-label="Scroll to top"
+  className="fixed right-3 bottom-2 items-center justify-center text-white bg-gradient-to-r from-[var(--color-accent)] to-[var(--color-accent-hover)] w-10 h-10 rounded-md border-[var(--color-border)] hover:scale-105 duration-200 hover:from-[var(--color-accent-hover)] hover:to-[var(--color-accent)]"
+>
+  <CircleArrowUp size={24} />
+</a>
   );
 }
 
