@@ -1,9 +1,10 @@
 import { useState } from "react";
-import { Phone, Briefcase, Wrench, User, Moon, Menu, X } from "lucide-react";
+import { Phone, Briefcase, Wrench, User, Moon, Menu, X, ArrowDown, ArrowUp } from "lucide-react";
 import ThemeToggle from "./ThemeToggle";
 
 function NavBar() {
   const [menuOpen, setMenuOpen] = useState(false);
+  const [showDetails, setShowDetails] = useState(false); // ✅ مضافة هنا
 
   return (
     <nav className="flex border-b pb-3 border-[var(--color-border)] flex-col lg:flex-row justify-between items-start lg:items-center gap-4 lg:gap-0 w-full transition-all duration-300">
@@ -13,22 +14,21 @@ function NavBar() {
             src="imgs/logo.webp"
             className="h-10"
             alt="Ahmed logo"
-            loading="lazy"/>
+            loading="lazy"
+          />
         </a>
-<button
-  onClick={() => setShowDetails(!showDetails)}
-  className="p-1"
-  aria-label={showDetails ? "Hide details" : "Show details"}
-  title={showDetails ? "Hide details" : "Show details"}
->
-  {showDetails ? (
-    <ArrowUp size={20} className="text-white" />
-  ) : (
-    <ArrowDown size={20} className="text-white" />
-  )}
-</button>
-
-
+        <button
+          onClick={() => setShowDetails(!showDetails)}
+          className="p-1"
+          aria-label={showDetails ? "Hide details" : "Show details"}
+          title={showDetails ? "Hide details" : "Show details"}
+        >
+          {showDetails ? (
+            <ArrowUp size={20} className="text-white" />
+          ) : (
+            <ArrowDown size={20} className="text-white" />
+          )}
+        </button>
       </div>
 
       <ul
