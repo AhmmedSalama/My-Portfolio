@@ -13,8 +13,7 @@ function NavBar() {
             src="imgs/logo.webp"
             className="h-10"
             alt="Ahmed logo"
-            loading="lazy"
-          />
+            loading="lazy"/>
         </a>
 <button
   onClick={() => setShowDetails(!showDetails)}
