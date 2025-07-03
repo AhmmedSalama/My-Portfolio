@@ -7,15 +7,16 @@ function NavBar() {
   return (
     <nav className="flex border-b pb-3 border-[var(--color-border)] flex-col lg:flex-row justify-between items-start lg:items-center gap-4 lg:gap-0 w-full transition-all duration-300">
       <div className="w-full flex justify-between items-center lg:block">
-        <a>
-          <img
-            src="imgs/logo.webp"
-            className="h-10"
-            alt="Ahmed logo"
-            loading="lazy"
-          />
-        </a>
-
+<a href="/">
+  <img
+    src="imgs/logo.webp"
+    alt="Ahmed logo"
+    loading="lazy"
+    width="120"
+    height="40"
+    className="h-10 w-auto"
+  />
+</a>
         <button
           className="lg:hidden p-2 rounded-md hover:bg-card-hover transition-colors"
           aria-label="Toggle menu"
