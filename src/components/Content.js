@@ -11,7 +11,7 @@ function Content() {
       <NavBar />
       <div className="py-10">
         <SectionTitle line1="Front End" line2="Developer"/>
-          <p className=" w-full md:w-[500px] text-wrap text-base sm:text-lg text-[var(--color-text-secondary)]">
+          <p className=" w-full md:w-[500px] break-words text-base sm:text-lg text-[var(--color-text-secondary)]">
             I am a skilled Front-End Developer with 1 year of experience. I specialize in creating intuitive and engaging user experiences, transforming innovative ideas into beautifully crafted and functional products. My passion lies in delivering cutting-edge solutions that align with user needs and industry standards.
           </p>
         <div className="flex gap-5 md:gap-10 mt-16">
