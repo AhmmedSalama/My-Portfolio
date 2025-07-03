@@ -29,6 +29,8 @@ function Profile() {
             src="/imgs/avatar.webp"
             alt="Profile Avatar"
             className="w-full"
+            width={160}
+            height={160}
           />
         </div>
 
