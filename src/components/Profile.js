@@ -25,7 +25,7 @@ function Profile() {
 
       <div className="flex flex-col items-center">
         <div className="rounded-lg w-24 sm:w-32 md:w-36 lg:w-40 bg-[var(--color-card-hover)]">
-          <img src="/imgs/avatar.png" alt="Profile Avatar" className="w-full" />
+          <img src="/imgs/avatar.webp" alt="Profile Avatar" className="w-full" />
         </div>
 
         <div className="text-center mt-3">
