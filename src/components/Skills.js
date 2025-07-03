@@ -14,6 +14,8 @@ function Skills() {
               loading="lazy"
               alt="HTML Icon"
               className="object-contain max-w-full max-h-full"
+              width={40}
+              height={40}
             />
           </div>
           <h4 className="text-[var(--color-text)] text-xl font-semibold text-center">HTML</h4>
@@ -28,6 +30,8 @@ function Skills() {
               loading="lazy"
               alt="CSS Icon"
               className="object-contain max-w-full max-h-full"
+              width={40}
+              height={40}
             />
           </div>
           <h4 className="text-[var(--color-text)] text-xl font-semibold text-center">CSS</h4>
@@ -42,6 +46,8 @@ function Skills() {
               loading="lazy"
               alt="JavaScript Icon"
               className="object-contain max-w-full max-h-full"
+              width={40}
+              height={40}
             />
           </div>
           <h4 className="text-[var(--color-text)] text-xl font-semibold text-center">JavaScript</h4>
@@ -56,6 +62,8 @@ function Skills() {
               loading="lazy"
               alt="React Icon"
               className="object-contain max-w-full max-h-full"
+              width={40}
+              height={40}
             />
           </div>
           <h4 className="text-[var(--color-text)] text-xl font-semibold text-center">React</h4>
@@ -70,6 +78,8 @@ function Skills() {
               loading="lazy"
               alt="Tailwind CSS Icon"
               className="object-contain max-w-full max-h-full"
+              width={40}
+              height={40}
             />
           </div>
           <h4 className="text-[var(--color-text)] text-xl font-semibold text-center">Tailwind CSS</h4>
@@ -84,6 +94,8 @@ function Skills() {
               loading="lazy"
               alt="Bootstrap Icon"
               className="object-contain max-w-full max-h-full"
+              width={40}
+              height={40}
             />
           </div>
           <h4 className="text-[var(--color-text)] text-xl font-semibold text-center">Bootstrap</h4>
@@ -98,6 +110,8 @@ function Skills() {
               loading="lazy"
               alt="Redux Icon"
               className="object-contain max-w-full max-h-full"
+              width={40}
+              height={40}
             />
           </div>
           <h4 className="text-[var(--color-text)] text-xl font-semibold text-center">Redux</h4>
@@ -112,6 +126,8 @@ function Skills() {
               loading="lazy"
               alt="Git Icon"
               className="object-contain max-w-full max-h-full"
+              width={40}
+              height={40}
             />
           </div>
           <h4 className="text-[var(--color-text)] text-xl font-semibold text-center">Git</h4>
@@ -126,6 +142,8 @@ function Skills() {
               loading="lazy"
               alt="GitHub Icon"
               className="object-contain max-w-full max-h-full"
+              width={40}
+              height={40}
             />
           </div>
           <h4 className="text-[var(--color-text)] text-xl font-semibold text-center">GitHub</h4>
@@ -140,12 +158,13 @@ function Skills() {
               loading="lazy"
               alt="API Icon"
               className="object-contain max-w-full max-h-full"
+              width={40}
+              height={40}
             />
           </div>
           <h4 className="text-[var(--color-text)] text-xl font-semibold text-center">API</h4>
           <p className="text-[var(--color-text-secondary)] text-sm text-center mt-1">Data Interface</p>
         </div>
-
       </div>
     </div>
   );
