@@ -89,6 +89,8 @@ function Projects() {
           title="E-commerce Site"
           description="Project description"
           image="https://placehold.co/600x400"
+          demoLink=""
+          codeLink=""
         />
           <Card
           type="Web Apps"
