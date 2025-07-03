@@ -11,7 +11,6 @@ function Card({ type, title, description, image, codeLink, demoLink }) {
           src={image}
           alt={`${title} Screenshot`}
           className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-110"
-          loading="lazy"
         />
         <div className="absolute top-0 p-2 left-0 w-full -translate-y-8 opacity-0 transition-all duration-300 group-hover:translate-y-0 group-hover:opacity-100 flex items-start">
           <span className="px-3 py-1 text-xs rounded-full bg-amber-600 text-white z-10">
@@ -28,7 +27,7 @@ function Card({ type, title, description, image, codeLink, demoLink }) {
       </div>
 
       <div className="flex items-center justify-between p-4">
-        {/* ✅ رابط الكود بدون a داخل a */}
+        {/* ✅ تم توحيد تنسيق زر الكود */}
         <a
           href={codeLink}
           target="_blank"
@@ -40,7 +39,6 @@ function Card({ type, title, description, image, codeLink, demoLink }) {
           <Github />
         </a>
 
-        {/* ✅ رابط الديمو بدون a داخل a */}
         <a
           href={demoLink}
           target="_blank"
