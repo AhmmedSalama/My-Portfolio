@@ -1,35 +1,41 @@
 import { useState } from "react";
-import { Mail, ArrowDown, ArrowUp, Facebook, Linkedin, Github, Phone,Calendar,MapPin } from "lucide-react";
+import {Mail,ArrowDown,ArrowUp,Facebook, Linkedin,Github,Phone,Calendar,MapPin,} from "lucide-react";
 
 function Profile() {
   const [showDetails, setShowDetails] = useState(false);
 
   return (
     <div className="p-5 bg-[var(--color-card-bg)] border rounded-md border-[var(--color-border)] col-span-12 lg:col-span-12 xl:col-span-3 xl:sticky xl:top-5 self-start h-fit bg-[var(--color-background)]">
-<div className="relative bottom-[19px] left-[-19px] xl:hidden">
-  <div className="inline-flex items-center bg-[var(--color-accent-hover)] rounded-tl-md rounded-bl-md">
-<button
-  onClick={() => setShowDetails(!showDetails)}
-  className="p-1"
-  aria-label={showDetails ? "Hide details" : "Show details"}
-  title={showDetails ? "Hide details" : "Show details"}
->
-  {showDetails ? (
-    <ArrowUp size={20} className="text-white" />
-  ) : (
-    <ArrowDown size={20} className="text-white" />
-  )}
-</button>
+      <div className="relative bottom-[19px] left-[-19px] xl:hidden">
+        <div className="inline-flex items-center bg-[var(--color-accent-hover)] rounded-tl-md rounded-bl-md">
+          <button
+            onClick={() => setShowDetails(!showDetails)}
+            className="p-1"
+            aria-label={showDetails ? "Hide details" : "Show details"}
+            title={showDetails ? "Hide details" : "Show details"}
+          >
+            {showDetails ? (
+              <ArrowUp size={20} className="text-white" />
+            ) : (
+              <ArrowDown size={20} className="text-white" />
+            )}
+          </button>
+        </div>
+      </div>
 
-  </div>
-</div>
       <div className="flex flex-col items-center">
         <div className="rounded-lg w-24 sm:w-32 md:w-36 lg:w-40 bg-[var(--color-card-hover)]">
-          <img src="/imgs/avatar.webp" alt="Profile Avatar" className="w-full" />
+          <img
+            src="/imgs/avatar.webp"
+            alt="Profile Avatar"
+            className="w-full"
+          />
         </div>
 
         <div className="text-center mt-3">
-          <h2 className="text-2xl font-bold text-[var(--color-text)]">Ahmed Salama</h2>
+          <h2 className="text-2xl font-bold text-[var(--color-text)]">
+            Ahmed Salama
+          </h2>
           <p className="bg-[var(--color-card-hover)] text-[var(--color-text)] lg:bg-transparent font-light px-2 py-1 rounded-md">
             Front End Developer
           </p>
@@ -54,7 +60,9 @@ function Profile() {
             </div>
             <div>
               <h3 className="text-[var(--color-text)] font-semibold">EMAIL</h3>
-              <p className="text-sm text-[var(--color-text-secondary)]">A7medsamirr4@gmail.com</p>
+              <p className="text-sm text-[var(--color-text-secondary)]">
+                A7medsamirr4@gmail.com
+              </p>
             </div>
           </div>
 
@@ -64,7 +72,9 @@ function Profile() {
             </div>
             <div>
               <h3 className="text-[var(--color-text)] font-semibold">PHONE</h3>
-              <p className="text-sm text-[var(--color-text-secondary)]">+20 123456789</p>
+              <p className="text-sm text-[var(--color-text-secondary)]">
+                +20 123456789
+              </p>
             </div>
           </div>
 
@@ -73,8 +83,12 @@ function Profile() {
               <Calendar size={20} />
             </div>
             <div>
-              <h3 className="text-[var(--color-text)] font-semibold">BIRTHDAY</h3>
-              <p className="text-sm text-[var(--color-text-secondary)]">April 18</p>
+              <h3 className="text-[var(--color-text)] font-semibold">
+                BIRTHDAY
+              </h3>
+              <p className="text-sm text-[var(--color-text-secondary)]">
+                April 18
+              </p>
             </div>
           </div>
 
@@ -83,25 +97,50 @@ function Profile() {
               <MapPin size={20} />
             </div>
             <div>
-              <h3 className="text-[var(--color-text)] font-semibold">LOCATION</h3>
-              <p className="text-sm text-[var(--color-text-secondary)]">Egypt, Cairo</p>
+              <h3 className="text-[var(--color-text)] font-semibold">
+                LOCATION
+              </h3>
+              <p className="text-sm text-[var(--color-text-secondary)]">
+                Egypt, Cairo
+              </p>
             </div>
           </div>
 
           {/* أيقونات السوشيال ميديا */}
           <ul className="flex justify-center gap-4 mt-6">
             <li className="border text-[var(--color-text-secondary)] p-3 rounded-md hover:bg-[var(--color-card-hover)] hover:text-[var(--color-accent-hover)] transition">
-              <a href="https://www.facebook.com/AhmeedSallama2" className="block">
+              <a
+                href="https://www.facebook.com/AhmeedSallama2"
+                className="block"
+                target="_blank"
+                rel="noopener noreferrer"
+                title="Visit Facebook profile"
+                aria-label="Facebook"
+              >
                 <Facebook />
               </a>
             </li>
             <li className="border text-[var(--color-text-secondary)] p-3 rounded-md hover:bg-[var(--color-card-hover)] hover:text-[var(--color-accent-hover)] transition">
-              <a href="https://www.linkedin.com/in/ahmeedsalama/" className="block">
+              <a
+                href="https://www.linkedin.com/in/ahmeedsalama/"
+                className="block"
+                target="_blank"
+                rel="noopener noreferrer"
+                title="Visit LinkedIn profile"
+                aria-label="LinkedIn"
+              >
                 <Linkedin />
               </a>
             </li>
             <li className="border text-[var(--color-text-secondary)] p-3 rounded-md hover:bg-[var(--color-card-hover)] hover:text-[var(--color-accent-hover)] transition">
-              <a href="#" className="block">
+              <a
+                href="#"
+                className="block"
+                target="_blank"
+                rel="noopener noreferrer"
+                title="Visit GitHub profile"
+                aria-label="GitHub"
+              >
                 <Github />
               </a>
             </li>
