@@ -16,12 +16,15 @@ function ThemeToggle() {
     localStorage.setItem("modeState", isDark);
   }, [isDark]);
   return (
-    <button
-      onClick={() => setIsDark(!isDark)}
-      className="w-full lg:w-auto border rounded-full p-1 hover:bg-[var(--color-card-hover)] transition-all duration-300"
-    >
-      {isDark ? <Sun className="text-white" /> : <Moon />}
-    </button>
+<button
+  onClick={() => setIsDark(!isDark)}
+  className="w-full lg:w-auto border rounded-full p-1 hover:bg-[var(--color-card-hover)] transition-all duration-300"
+  aria-label={isDark ? "Switch to light mode" : "Switch to dark mode"}
+  title={isDark ? "Switch to light mode" : "Switch to dark mode"}
+>
+  {isDark ? <Sun className="text-white" /> : <Moon />}
+</button>
+
   );
 }
 
