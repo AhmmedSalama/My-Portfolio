@@ -8,24 +8,24 @@ function Profile() {
     <div className="p-5 bg-[var(--color-card-bg)] border rounded-md border-[var(--color-border)] col-span-12 lg:col-span-12 xl:col-span-3 xl:sticky xl:top-5 self-start h-fit bg-[var(--color-background)]">
 <div className="relative bottom-[19px] left-[-19px] xl:hidden">
   <div className="inline-flex items-center bg-[var(--color-accent-hover)] rounded-tl-md rounded-bl-md">
-    <button
-      onClick={() => setShowDetails(!showDetails)}
-      className="p-1"
-    >
-      {showDetails ? (
-        <ArrowUp size={20} className="text-white" />
-      ) : (
-        <ArrowDown size={20} className="text-white" />
-      )}
-    </button>
+<button
+  onClick={() => setShowDetails(!showDetails)}
+  className="p-1"
+  aria-label={showDetails ? "Hide details" : "Show details"}
+  title={showDetails ? "Hide details" : "Show details"}
+>
+  {showDetails ? (
+    <ArrowUp size={20} className="text-white" />
+  ) : (
+    <ArrowDown size={20} className="text-white" />
+  )}
+</button>
+
   </div>
 </div>
-
-
-
       <div className="flex flex-col items-center">
         <div className="rounded-lg w-24 sm:w-32 md:w-36 lg:w-40 bg-[var(--color-card-hover)]">
-          <img src="/imgs/avatar.webp" alt="Profile Avatar" className="w-full" />
+          <img src="/imgs/avatar.png" alt="Profile Avatar" className="w-full" />
         </div>
 
         <div className="text-center mt-3">
@@ -89,42 +89,23 @@ function Profile() {
           </div>
 
           {/* أيقونات السوشيال ميديا */}
-<ul className="flex justify-center gap-4 mt-6">
-  <li className="border text-[var(--color-text-secondary)] p-3 rounded-md hover:bg-[var(--color-card-hover)] hover:text-[var(--color-accent-hover)] transition">
-    <a
-      href="https://www.facebook.com/AhmeedSallama2"
-      className="block"
-      target="_blank"
-      rel="noopener noreferrer"
-      title="Visit my Facebook profile"
-    >
-      <Facebook />
-    </a>
-  </li>
-  <li className="border text-[var(--color-text-secondary)] p-3 rounded-md hover:bg-[var(--color-card-hover)] hover:text-[var(--color-accent-hover)] transition">
-    <a
-      href="https://www.linkedin.com/in/ahmeedsalama/"
-      className="block"
-      target="_blank"
-      rel="noopener noreferrer"
-      title="Visit my LinkedIn profile"
-    >
-      <Linkedin />
-    </a>
-  </li>
-  <li className="border text-[var(--color-text-secondary)] p-3 rounded-md hover:bg-[var(--color-card-hover)] hover:text-[var(--color-accent-hover)] transition">
-    <a
-      href="#"
-      className="block"
-      target="_blank"
-      rel="noopener noreferrer"
-      title="Visit my GitHub profile"
-    >
-      <Github />
-    </a>
-  </li>
-</ul>
-
+          <ul className="flex justify-center gap-4 mt-6">
+            <li className="border text-[var(--color-text-secondary)] p-3 rounded-md hover:bg-[var(--color-card-hover)] hover:text-[var(--color-accent-hover)] transition">
+              <a href="https://www.facebook.com/AhmeedSallama2" className="block">
+                <Facebook />
+              </a>
+            </li>
+            <li className="border text-[var(--color-text-secondary)] p-3 rounded-md hover:bg-[var(--color-card-hover)] hover:text-[var(--color-accent-hover)] transition">
+              <a href="https://www.linkedin.com/in/ahmeedsalama/" className="block">
+                <Linkedin />
+              </a>
+            </li>
+            <li className="border text-[var(--color-text-secondary)] p-3 rounded-md hover:bg-[var(--color-card-hover)] hover:text-[var(--color-accent-hover)] transition">
+              <a href="#" className="block">
+                <Github />
+              </a>
+            </li>
+          </ul>
         </div>
       </div>
     </div>
