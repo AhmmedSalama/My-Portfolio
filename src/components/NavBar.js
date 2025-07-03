@@ -16,14 +16,19 @@ function NavBar() {
             loading="lazy"
           />
         </a>
+<button
+  onClick={() => setShowDetails(!showDetails)}
+  className="p-1"
+  aria-label={showDetails ? "Hide details" : "Show details"}
+  title={showDetails ? "Hide details" : "Show details"}
+>
+  {showDetails ? (
+    <ArrowUp size={20} className="text-white" />
+  ) : (
+    <ArrowDown size={20} className="text-white" />
+  )}
+</button>
 
-        <button
-          className="lg:hidden p-2 rounded-md hover:bg-card-hover transition-colors"
-          aria-label="Toggle menu"
-          onClick={() => setMenuOpen(!menuOpen)}
-        >
-          {menuOpen ? <X className="text-[var(--color-text)]" /> : <Menu className="text-[var(--color-text)]" />}
-        </button>
       </div>
 
       <ul
