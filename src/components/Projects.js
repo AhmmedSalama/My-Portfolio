@@ -88,8 +88,8 @@ function Projects() {
           className="Card block"
           title="E-commerce Site"
           description="Project description"
-          image="https://placehold.co/600x400"
-          demoLink=""
+          image="./imgs/Projects-img/Basket-shop.png"
+          demoLink="https://ahmmedsalama.github.io/Basket-shop"
           codeLink=""
         />
           <Card
@@ -137,9 +137,11 @@ function Projects() {
           demoLink="https://sunny-fenglisu-f525c6.netlify.app/"
           codeLink="https://flourishing-syrniki-221e65.netlify.app/"
         />
+            
       </div>
     </div>
   );
 }
 
 export default Projects;
+
