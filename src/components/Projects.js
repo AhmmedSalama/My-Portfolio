@@ -129,6 +129,24 @@ function Projects() {
           codeLink=""
         />
           <Card
+          type="E-commerce"
+          className="Card block"
+          title="E-commerce Site"
+          description="E-commerce Site"
+          image="./imgs/Projects-img/style-loom.webp"
+          demoLink="https://style-loom-psi.vercel.app"
+          codeLink="https://github.com/AhmmedSalama/Style.Loom"
+        />
+          <Card
+            type="Web Apps"
+            className="Card block"
+            title="Anime world (React & API)"
+            description="Explore the world of anime — a lightweight React app that fetches, previews, and searches anime via an API with a fast, responsive interface."
+            image="./imgs/Projects-img/animeworld.webp"
+            demoLink="https://anime-world-six.vercel.app"
+            codeLink="https://github.com/AhmmedSalama/Anime-World"
+          />    
+          <Card
           type="Web Apps"
           className="Card block"
           title="Product Dashboard(React & api)"
@@ -144,7 +162,7 @@ function Projects() {
           description="Project description"
           image="./imgs/Projects-img/moviesapp.png"
           demoLink="https://ahmmedsalama.github.io/Movies_App-master/"
-          codeLink=""
+          codeLink="https://github.com/AhmmedSalama/Movies_App-master"
         />   
       </div>
     </div>
@@ -152,5 +170,6 @@ function Projects() {
 }
 
 export default Projects;
+
 
 
