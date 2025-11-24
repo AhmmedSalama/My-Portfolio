@@ -75,7 +75,7 @@ function Profile() {
             <div>
               <h3 className="text-[var(--color-text)] font-semibold">PHONE</h3>
               <p className="text-sm text-[var(--color-text-secondary)]">
-                +20 1003192331
+                +20 1003192331 <br>
                 +971 50 606 7695
               </p>
             </div>
@@ -104,7 +104,7 @@ function Profile() {
                 LOCATION
               </h3>
               <p className="text-sm text-[var(--color-text-secondary)]">
-                Egypt, Cairo,  
+                Egypt, Cairo,<br>
                 UAE, Dubai
               </p>
             </div>
@@ -138,7 +138,7 @@ function Profile() {
             </li>
             <li className="border text-[var(--color-text-secondary)] p-3 rounded-md hover:bg-[var(--color-card-hover)] hover:text-[var(--color-accent-hover)] transition">
               <a
-                href="#"
+                href="https://github.com/AhmmedSalama"
                 className="block"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -156,4 +156,5 @@ function Profile() {
 }
 
 export default Profile;
+
 
