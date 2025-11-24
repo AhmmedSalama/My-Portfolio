@@ -63,7 +63,7 @@ function Profile() {
             <div>
               <h3 className="text-[var(--color-text)] font-semibold">EMAIL</h3>
               <p className="text-sm text-[var(--color-text-secondary)]">
-                A7medsamirr4@gmail.com
+                A7medsamirr2@gmail.com
               </p>
             </div>
           </div>
@@ -75,7 +75,8 @@ function Profile() {
             <div>
               <h3 className="text-[var(--color-text)] font-semibold">PHONE</h3>
               <p className="text-sm text-[var(--color-text-secondary)]">
-                +20 123456789
+                +20 1003192331
+                +971 50 606 7695
               </p>
             </div>
           </div>
@@ -103,7 +104,8 @@ function Profile() {
                 LOCATION
               </h3>
               <p className="text-sm text-[var(--color-text-secondary)]">
-                Egypt, Cairo
+                Egypt, Cairo,  
+                UAE, Dubai
               </p>
             </div>
           </div>
@@ -154,3 +156,4 @@ function Profile() {
 }
 
 export default Profile;
+
