@@ -164,12 +164,22 @@ function Projects() {
           demoLink="https://ahmmedsalama.github.io/Movies_App-master/"
           codeLink="https://github.com/AhmmedSalama/Movies_App-master"
         />   
+          <Card
+          type="Web Apps"
+          className="Card block"
+          title="Zekr"
+          description="Islamic Platform"
+          image="./imgs/Projects-img/zekr.png"
+          demoLink="https://zekr-beta.vercel.app/"
+          codeLink="https://github.com/AhmmedSalama/zekr"
+        />  
       </div>
     </div>
   );
 }
 
 export default Projects;
+
 
 
 
